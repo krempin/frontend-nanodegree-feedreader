@@ -94,7 +94,12 @@ $(function() {
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
 
+         beforeEach(function(done) {
+              loadFeed(0, done);
+         });
+
          it('are at least one (there is at least a single .entry element within the .feed container)', function() {
+              expect($('.feed .entry').length).toBeGreaterThan(0);
          });
 
     });
@@ -106,9 +111,6 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
-
-         it('loads (the content actually changes by the loadFeed function)', function() {
-         });
 
     });
 
