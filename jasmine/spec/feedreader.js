@@ -94,6 +94,9 @@ $(function() {
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
 
+         it('are at least one (there is at least a single .entry element within the .feed container)', function() {
+         });
+
     });
 
     /* TODO: Write a new test suite named "New Feed Selection" */
@@ -103,6 +106,9 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
+
+         it('loads (the content actually changes by the loadFeed function)', function() {
+         });
 
     });
 
