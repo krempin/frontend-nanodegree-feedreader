@@ -6,6 +6,7 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 https://discussions.udacity.com/t/separating-specs-into-individual-tests/14160
 https://discussions.udacity.com/t/having-issues-with-testing-the-visibility-of-the-menu/181639/6
+https://discussions.udacity.com/t/feedreader-testing/633440
 
 ## Why this Project?
 
