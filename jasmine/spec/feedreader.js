@@ -112,6 +112,23 @@ $(function() {
          * Remember, loadFeed() is asynchronous.
          */
 
+         let contentBefore;
+         let contentAfter;
+
+         beforeEach(function(done) {
+              loadFeed(0, function(){
+                  contentBefore = $(".feed").text();
+                  loadFeed(1, function(){
+                      contentAfter = $(".feed").text();
+                      done();
+                  });
+              });
+         });
+
+         it('loads (the content actually changes by the loadFeed function)', function() {
+              expect(contentBefore).not.toEqual(contentAfter);
+         });
+
     });
 
 }());
