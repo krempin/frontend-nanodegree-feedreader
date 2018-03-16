@@ -5,6 +5,7 @@ In this project you are given a web-based application that reads RSS feeds. The 
 ## Credits / code sources
 
 https://discussions.udacity.com/t/separating-specs-into-individual-tests/14160
+https://discussions.udacity.com/t/having-issues-with-testing-the-visibility-of-the-menu/181639/6
 
 ## Why this Project?
 
